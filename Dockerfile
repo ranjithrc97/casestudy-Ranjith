@@ -8,6 +8,6 @@ from centos
                   RUN mv apache-tomcat-8.5.59/* /opt/tomcat/.
                   #https://tomcat.apache.org/tomcat-8.0-doc/appdev/sample/
                   COPY ./sample.war /opt/tomcat/webapps
-                  EXPOSE 8080
+                  EXPOSE 8081
                   CMD ["/opt/tomcat/bin/catalina.sh", "run"] 
 
